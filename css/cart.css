@@ -1,0 +1,51 @@
+.cart-header h3 {
+    font-family: 'Lora';
+    font-size: 35px;
+    color: #053B7C;
+    font-weight: 600;
+}
+
+.cart-header p {
+    color: #B7B7B7;
+    font-weight: 200;
+}
+
+.checkout h5 {
+ color:#000000;
+ font-size: 18px;
+ font-weight: 500;
+}
+
+.checkout p {
+    color:#000000;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.price-detail {
+    background-color: #F6F7Fb;
+    border:1px solid #eaeaea;
+    color:#171717;
+}
+
+footer {
+    margin-top:30px;
+}
+
+@media (max-width: 576px) {    
+.checkout img {
+        margin-bottom: 5px;
+    }
+}
+
+form {
+    margin-bottom:50px;
+}
+
+@media (max-width: 768px) { 
+.checkout img {
+        margin-bottom: 5px;
+    }   
+
+
+}

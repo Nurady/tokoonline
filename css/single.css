@@ -1,0 +1,159 @@
+/* Breadcrumb */
+
+.breadcrumb {
+    margin-top: 100px;
+}
+
+.thumbnail-container {
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 348px;
+    padding: 8px;
+    margin: auto;
+    transform: translateY(-55px);
+}
+
+.thumbnail-container a {
+    text-decoration: none;
+}
+
+.btn-product {
+    margin:50px 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E9E9EE;
+}
+
+.btn-product .btn {
+    display: block;
+    margin:10px 0;
+}
+
+.btn-product .btn-whislist:hover {
+    opacity:0.7;
+    transition: .2s;
+}
+
+.single-brand h5 {
+    margin-bottom: 10px;
+    font-size:14px;    
+    color:#000000;
+}
+
+/* Description Review */
+.product-description {
+    background-color: #F7F3F5; 
+    height: 350px;       
+}
+
+.product-description .tab-content {
+    background-color: white;
+    border:1px solid #dee2e6;
+    border-top: 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;    
+}
+
+.product-description .tab-content p {
+    font-weight: 200;
+    color:#BBB6B6;
+    line-height: 28px;
+    font-size: 16px;   
+    margin-right: 10px;
+}
+
+.tab-pane {
+    overflow-y: scroll !important;
+    height: 350px;   
+}
+
+.product-review.tab-pane {
+    height: 285px;
+    overflow-y: scroll !important;
+}
+
+.product-review h5 {
+    font-size:18px;
+    margin-bottom: 0;
+    margin-top: 5px;    
+}
+
+.product-review p {
+    font-size:14px !important;   
+}
+
+/* similar product */
+.similar-product {
+    margin-top:150px;
+}
+
+.similar-product h3 {
+    font-family: 'Lora';
+    font-size: 35px;
+    color: #053B7C;
+    font-weight: 600;
+}
+
+.similar-product p {
+    color: #171717;
+    font-weight: 200;
+}
+
+.similar-product img {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16 );
+}
+
+footer {      
+    margin-top: 100px;
+}
+
+
+/* mobile */
+@media (max-width: 576px) {    
+    .figure-caption {
+        width: 95%;
+    }
+
+    .figure.thumbnail-container {
+        width: 95%;
+    }
+
+    .figure-caption img {
+        padding-left: 2px;
+        padding-right: 2px;        
+    }
+
+    .btn-product {
+        width: 55%;
+    }  
+    
+    .product-review h5 {
+        font-size:18px;  
+        margin-left:30px          
+    }
+
+    .product-description .tab-content p {         
+        font-size: 16px;   
+    }
+    
+    .product-review p {
+        font-size:14px !important; 
+        margin-left:30px        
+    }    
+}
+
+@media (max-width: 768px) { 
+    .btn-product {
+        width: 55%;
+    }
+
+    .thumbnail-container {
+        width: 95%;
+    }     
+}
+
+
+@media (max-width: 992px) { 
+    .btn-product {
+        width: 55%;
+    }    
+}

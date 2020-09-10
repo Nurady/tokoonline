@@ -1,0 +1,26 @@
+.category {
+    margin-top:150px;
+}
+
+.category h3 {
+    font-family: 'Lora';
+    font-size: 35px;
+    color: #053B7C;
+    font-weight: 600;
+}
+
+.category p {
+    color: #171717;
+    font-weight: 200;
+}
+
+.category img {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16 );
+}
+
+
+@media (max-width: 576px) {    
+    .figure-caption {
+            margin-bottom: 30px !important;
+        }
+    }
